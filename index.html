@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Codewars Table</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-img">
+        <img src="./images/IMAGE.svg" alt="icon" />
+      </div>
+
+      <div class="border"></div>
+      <form action="#">
+        <input type="text" placeholder="Codewars user name" class="input" />
+        <a href="#" class="btn"> Submit </a>
+      </form>
+    </div>
+  </div>
+
+  <section class="section">
+
+    <div class="close">
+      <img class="close-btn" src="./images/close-circle-outline.svg" alt="close-circle-outline">
+    </div>
+
+    <div class="user">
+      <div class="user-content">
+        <div class="user-result">
+          <div class="user-bio">
+            <div class="user-goal"></div>
+          </div>
+          <span class="number">315</span>
+        </div>
+        <h1 class="finished">
+          Total Completed Kata: <span class="kata">50</span>
+        </h1>
+      </div>
+      <div class="nameuser"></div>
+    </div>
+    <button class="solution-btn">Solution list</button>
+    <div class="solution-list">
+      <div class="list-content">
+        <h1 class="list-title">Calculating with Functions</h1>
+        <p class="list-text">
+          Completed Languages: <span class="language"></span>
+        </p>
+      </div>
+      <div class="list-result">
+        <h1 class="result-title">Calculating with Functions</h1>
+        <p class="result-text">
+          Completed Exercises: <span class="result-language"></span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./app.js"></script>
+
+</body>
+
+</html>
